@@ -1,0 +1,41 @@
+
+.post {
+    display: inline-block;
+    width: 100%;
+    
+    padding: 10px;
+    border: 1px solid grey;
+
+}
+    .post > .post-header {
+        display: grid;
+        background-color: greenyellow;
+        grid-template-columns: 50px 1fr 20px;
+        gap: 15px;
+    }
+        .post > .post-header > .avatar-link {
+
+        }
+            .post > .post-header > .avatar-link > .avatar {
+
+            }
+        .post > .post-header > .post-user {
+            
+
+        }
+            .post > .post-header > .post-user > .user {
+
+            }
+            .post > .post-header > .post-user > .timestamp {
+                
+            }
+        .post > .post-header > .fa {
+
+        }
+    .post > .post-content {
+
+    }
+
+    .post > .post-footer {
+
+    }
