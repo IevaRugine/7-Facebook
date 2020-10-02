@@ -2,40 +2,45 @@
 .post {
     display: inline-block;
     width: 100%;
-    
     padding: 10px;
-    border: 1px solid grey;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
 
 }
     .post > .post-header {
         display: grid;
-        background-color: greenyellow;
-        grid-template-columns: 50px 1fr 20px;
+        grid-template-columns: 50px 1fr 30px;
         gap: 15px;
+        margin-bottom: 10px;
     }
         .post > .post-header > .avatar-link {
+            width: 100%;
 
         }
             .post > .post-header > .avatar-link > .avatar {
+                width: 100%;
+            
 
             }
         .post > .post-header > .post-user {
+           
             
-
         }
             .post > .post-header > .post-user > .user {
 
             }
             .post > .post-header > .post-user > .timestamp {
-                
-            }
+            }   
+               
         .post > .post-header > .fa {
-
+           
         }
-    .post > .post-content {
+   
+        .post > .post-content {
+            margin-bottom: 10px;
+        }
 
-    }
-
+        
     .post > .post-footer {
 
     }

@@ -24,6 +24,6 @@ aside{
 }
 body > main {
     grid-area: feed;
-    background-color: aqua;
+  
 }
 
