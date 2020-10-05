@@ -2,7 +2,6 @@
 .post {
     display: inline-block;
     width: 100%;
-    padding: 10px;
     border: 1px solid #ccc;
     margin-bottom: 40px;
 
@@ -12,15 +11,13 @@
         grid-template-columns: 50px 1fr 30px;
         gap: 15px;
         margin-bottom: 10px;
+        padding: 10px;
     }
         .post > .post-header > .avatar-link {
             width: 100%;
-
         }
             .post > .post-header > .avatar-link > .avatar {
                 width: 100%;
-            
-
             }
         .post > .post-header > .post-user {
            
@@ -37,10 +34,24 @@
         }
    
         .post > .post-content {
-            margin-bottom: 10px;
+            padding: 10px;
         }
 
+        .post > .post-content  .big-font {
+            font-size: 30px;
+        }
+
+        .post > .post-content .see-more { 
+            color: #36f;
+            cursor: pointer;
+        }
+        .post > .post-content .see-more:hover {
+            color: white;
+            background-color: #36f;
+
+        }
         
     .post > .post-footer {
+        padding: 10px;
 
     }
