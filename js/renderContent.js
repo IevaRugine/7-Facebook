@@ -5,7 +5,7 @@ function renderContent(data) {
 
 return `<div class="post-content">
             ${renderContentText(data.text)}
-            ${renderContentGallery()}
+            ${renderContentGallery(data.photos)}
         </div>`;
 }
 

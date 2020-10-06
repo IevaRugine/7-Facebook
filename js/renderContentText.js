@@ -18,7 +18,7 @@ if (textLength <= shortTextLength) {
    for (let i = 0; i < normalTextLength; i++) {
       shorterText += text[i];
    }
-      return `<p>${shorterText} + <span class="see-more">...See more </span></p>`;
+      return `<p>${shorterText} + <span class="see-more">...See more</span></p>`;
    
    } else {
    //o jei teksto daugiau nei leidziama maximaliai - rodom klaida
